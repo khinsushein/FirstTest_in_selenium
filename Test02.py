@@ -1,4 +1,5 @@
 #Open the movie The Shawshank Redemption and make sure the release date is correctlydisplayed.
+import pytest
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
 import selenium.webdriver as webdriver
