@@ -1,5 +1,4 @@
 import pytest
-
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
 import selenium.webdriver as webdriver
@@ -10,11 +9,6 @@ from time import sleep
 import org.openqa.selenium.WebElement
 import Xpath
 from selenium.common.exceptions import NoSuchElementException
-
-
-
-
-
 
 def test_basic_search(browser):
   # Set up some test case data
