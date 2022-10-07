@@ -1,6 +1,6 @@
 #Retrieve the url of the image and open it in another tab then close the tab.
 
-
+import pytest
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
 from time import sleep
