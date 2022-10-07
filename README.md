@@ -8,3 +8,4 @@
 #2. the test01 should be run in cross browser/OS platforms such as : Chrone, MS Edge, FireFox and Window, iOs, Android, Safari etc
 #3. All other test cases also could be repeated in cross browser platform/OS
 #4. improvements on the website : The Titles of each movie should be clickable so that we can just click to see [More Info] while keeping [ LEARN MORE] as well
+#5. pytest should be imported first into the python environment 
