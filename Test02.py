@@ -2,7 +2,7 @@
 #import pytest
 
 from selenium import webdriver
-driver=webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
 #import selenium.webdriver as webdriver
 #import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.keys import Keys
