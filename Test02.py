@@ -1,9 +1,10 @@
 #Open the movie The Shawshank Redemption and make sure the release date is correctlydisplayed.
-import pytest
-from selenium.webdriver import Chrome
-from selenium.webdriver.common.keys import Keys
-import selenium.webdriver as webdriver
-import selenium.webdriver.support.ui as ui
+#import pytest
+
+from selenium import webdriver
+driver=webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
+#import selenium.webdriver as webdriver
+#import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
