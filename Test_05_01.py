@@ -1,12 +1,12 @@
 #Search for A New and verify that all the titles displayed contain the search phrase
 
-from selenium.webdriver import Chrome
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
 from time import sleep
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
-from selenium.webdriver.remote.webelement import WebElement
+import org.openqa.selenium.WebElement
+import Xpath
+from selenium.common.exceptions import NoSuchElementException
 
 
 def browser():
