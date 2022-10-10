@@ -1,19 +1,11 @@
-import pytest
-
-from selenium.webdriver import Chrome
+# Check that the movie The Shawshank Redemption is no longer visible
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import selenium.webdriver as webdriver
-driver = webdriver.Chrome('./chromedriver.exe')
-import selenium.webdriver.support.ui as ui
-from selenium.webdriver.common.keys import Keys
+driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
 from time import sleep
 import org.openqa.selenium.WebElement
 import Xpath
 from selenium.common.exceptions import NoSuchElementException
-
-
-
-
 
 
 def test_basic_search(browser):
