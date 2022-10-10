@@ -1,4 +1,4 @@
-# Search for Star Trek and make sure that the movie Star Trek: 
+# Search for Star Trek and make sure that Star Trek: First Contact is displayed in the search results
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
