@@ -7,6 +7,7 @@ driver.get("https://top-movies-qhyuvdwmzt.now.sh/")
 # Title of the page
 print(driver.title)
 print(driver.current_url)
+#check that all elements can be displayed correctly
 driver.find_element_by_xpath("//*[@id='Tabbed']/a/button").click()
 time.sleep(5)
 #close the browser
