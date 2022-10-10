@@ -1,11 +1,12 @@
 #Take any movie you like and make sure the Released on, popularity, vote average and votecount fields have the expected values
-import pytest
-from selenium.webdriver import Chrome
+
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import selenium.webdriver as webdriver
-import selenium.webdriver.support.ui as ui
-from selenium.webdriver.common.keys import Keys
+driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver_win32\chromedriver.exe")
 from time import sleep
+import org.openqa.selenium.WebElement
+import Xpath
+from selenium.common.exceptions import NoSuchElementException
 
 
 def browser():
